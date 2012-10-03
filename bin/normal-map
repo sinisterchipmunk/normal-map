@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'normal_map'
+NormalMap::CLI.start ARGV
