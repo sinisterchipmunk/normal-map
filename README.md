@@ -1,4 +1,4 @@
-# Normalmapper
+# normal-map
 
 Command line tool and Ruby library for generating normal maps.
 
@@ -24,17 +24,17 @@ Or install it yourself as:
 
 Generate a normal map from a regular full-color image:
 
-  Usage:
-    normal-map generate [options] COLORS NORMALS
-
-  Options:
-    -s, [--smooth]    # Average adjacent pixels to produce a smoother map
-    -d, [--diagonal]  # Consider diagonally-adjacent pixels in normal 
-                        calculations
-    -w, [--wrap]      # Wrap edge pixels to the opposite edge, to make the 
-                        map more tile-friendly
-
-  Generates a normal map from COLORS and saves it to NORMALS
+    Usage:
+      normal-map generate [options] COLORS NORMALS
+    
+    Options:
+      -s, [--smooth]    # Average adjacent pixels to produce a smoother map
+      -d, [--diagonal]  # Consider diagonally-adjacent pixels in normal 
+                          calculations
+      -w, [--wrap]      # Wrap edge pixels to the opposite edge, to make the 
+                          map more tile-friendly
+    
+    Generates a normal map from COLORS and saves it to NORMALS
 
 
 
